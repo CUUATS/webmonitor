@@ -1,0 +1,18 @@
+{
+  "interval": 600,
+  "sender": "server@example.com",
+  "recipients": [
+    "admin1@example.com",
+    "admin2@example.com"
+  ],
+  "services": [
+    {
+      "name": "Example Website",
+      "url": "https://example.com/"
+    },
+    {
+      "name": "Example API",
+      "url": "https://example.com/api/v1/endpoint"
+    }
+  ]
+}
