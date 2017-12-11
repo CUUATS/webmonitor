@@ -1,0 +1,22 @@
+html
+  head
+    title Web Monitor
+    link(href='https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans' rel='stylesheet')
+    style(type='text/css')
+      include style.css
+  body
+    h1 Web Monitor
+    table
+      thead
+        tr
+          th Service
+          th Status
+      tbody
+        each service in services
+          tr
+            td(class='service')
+              a(href=service.url)= service.name
+            td(class=`status status-${service.status}`)= service.status
+    p(class='update')
+      strong= 'Updated: '
+      span(class='date')= updated

@@ -1,0 +1,23 @@
+{
+  "name": "webmonitor",
+  "version": "0.1.0",
+  "description": "Simple website monitoring and alerts",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "keywords": [
+    "website",
+    "monitor",
+    "URL"
+  ],
+  "author": "Matt Yoder",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "sendmail": "^1.2.0"
+  }
+}
