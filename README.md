@@ -1,2 +1,2 @@
-# webmonitor
-Simple URL monitoring using Node and Express
+# We've moved!
+This repository is now [hosted on GitLab](https://gitlab.com/ccrpc/webmonitor).
